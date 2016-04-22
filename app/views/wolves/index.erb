@@ -2,8 +2,28 @@
 <h1 class="h1_wolves">You have <%= @wolves.count %> wolves in your pack</h1>
 	<ul>
 		<% @wolves.each do |wolf| %>
-			<li><a href="/wolves/<%= wolf.id %>"><%= wolf.name %><%= wolf.image_url %></li>
+			<li><a href="/wolves/<%= wolf.id %>"><%= wolf.name %></li>
+			<li></li>
+			<li><%= wolf.image_url %></li>
 		<% end %>
 	</ul>
-	<h4><a href="/wolves/new">NEW PACK MEMBER</a></h4>
+	<a class="waves-effect waves-light btn" href="/wolves/new">NEW PACK MEMBER</a>
 </div>
+
+<% @wolves.each do |wolf| %>
+<div class="row">
+	<div class="col s12 m6">
+		<div class="card white">
+			<div class="card-content white-text">
+
+				<span class="card-title"><a href="/wolves/<%= wolf.id %>"><%= wolf.name %></a></span>
+				<p><%= wolf.description %></p>
+				</div>
+				<div class="card-action">
+					<a href="#">Howl Back (0)</a>
+					<a href="#">Like (0)</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<% end %>
