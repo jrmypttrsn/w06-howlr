@@ -33,7 +33,7 @@
     padding: 15% 0;
     font-size: 6.0em;
     font-weight: 100;
-    color:white;
+    color: #FFFFFF;
 }
 
 .brand-logo{
@@ -263,4 +263,8 @@ nav a.button-collapse {
 
 footer.page-footer {
     margin-top: 0px !important;
+}
+
+h1.h1_wolves {
+    color: #607D8B ;
 }

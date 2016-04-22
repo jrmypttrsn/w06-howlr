@@ -604,10 +604,10 @@
   color: #03a9f4 !important; }
 
 .light-blue.darken-1 {
-  background-color: #039be5 !important; }
+  background-color: #607DB8 !important; }
 
 .light-blue-text.text-darken-1 {
-  color: #039be5 !important; }
+  color: #607DB8 !important; }
 
 .light-blue.darken-2 {
   background-color: #0288d1 !important; }
@@ -1975,7 +1975,7 @@ ul {
   list-style-type: none; }
 
 a {
-  color: #039be5;
+  color: #607DB8;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent; }
 
@@ -5426,7 +5426,8 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  line-height: 1.1; }
+  line-height: 1.1;
+  color: #9E9E9E; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }

@@ -1,0 +1,9 @@
+<div class="container">
+<h1 class="h1_wolves">You have <%= @wolves.count %> wolves in your pack</h1>
+	<ul>
+		<% @wolves.each do |wolf| %>
+			<li><a href="/wolves/<%= wolf.id %>"><%= wolf.name %><%= wolf.image_url %></li>
+		<% end %>
+	</ul>
+	<h4><a href="/wolves/new">NEW PACK MEMBER</a></h4>
+</div>
