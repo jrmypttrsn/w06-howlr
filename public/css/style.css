@@ -1,3 +1,7 @@
+html {
+    font-family: 'Lato';
+  }
+
 nav {
     background-color: #9E9E9E;
 }
@@ -5,6 +9,16 @@ nav {
 a.waves-effect.waves-light.btn {
     float: right;
     background: #607D8B;
+}
+
+a.waves-effect.waves-light.back.btn {
+    float: left;
+    background: #607D8B;
+}
+
+button.waves-effect.waves-light.btn {
+	float: right;
+	background: #607D8B;
 }
 
 card {
@@ -21,4 +35,15 @@ card {
 
 a {
     color: #000;
+}
+
+.howls {
+	float: right;
+	color: #9E9E9E;
+}
+
+footer {
+		margin: 50px;
+		text-align: center;
+    padding-top:20px;
 }

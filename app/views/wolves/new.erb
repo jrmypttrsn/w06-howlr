@@ -10,19 +10,21 @@
     <form action="/wolves" method="post" class="col s12">
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Name" id="name" type="text" class="validate">
+          <input placeholder="Name" name="name" type="text" class="validate">
         </div>
       </div>      
       <div class="row">
         <div class="input-field col s12">
-          <input placeholder="Profile Picture URL" id="image_url" type="text" class="validate">
+          <input placeholder="Profile Picture URL" name="image_url" type="text" class="validate">
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input placeholder="Bio" id="description" type="text" class="validate">
+          <input placeholder="Bio" name="description" type="text" class="validate">
         </div>
       </div>
+      <a class="waves-effect waves-light back btn" href="/wolves">BACK</a>
+      <button class="waves-effect waves-light btn" type="submit">Submit</button>
     </form>
   </div>
 </div>

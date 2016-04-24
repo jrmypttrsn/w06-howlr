@@ -10,7 +10,6 @@ end
 # NEW
 get '/wolves/new/?' do 
   @wolf = Wolf.new
-  @howls = Howl.all 
   erb :"wolves/new"
 end
 

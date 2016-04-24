@@ -7,12 +7,13 @@
 				<div class="card white">
 					<div class="card-content white-text">
 							<div class="col s2">	
-								<div class="card-image">
-									<img src="<%= wolf.image_url %>" class="circle responsive-img">
-								</div>
+									<img src="<%= wolf.image_url %>"class="circle responsive-img">
 							</div>
 						<span class="card-title">
 						<a href="/wolves/<%= wolf.id %>"><%= wolf.name %></a></span>
+						<div class="howls">
+							<p> <%= wolf.howls %> howls</p>
+						</div>
 						<span class="black-text"><p><%= wolf.description %></p></span>
 					</div>
 				</div>
